@@ -1,1 +1,0 @@
-{"version":3,"file":"ui-player.js","sourceRoot":"","sources":["../../src/actions-reducers/ui-player.ts"],"names":[],"mappings":";;;AAEA,2CAA2C;AAC3C,uDAAuD;AACvD,+CAA+C;AAC/C,yDAAyD;AACzD,iDAAiD;AACjD,2EAA2E;AAoC9D,QAAA,gBAAgB,2FACxB,KAAK,CAAC,gBAAgB,GACtB,WAAW,CAAC,gBAAgB,GAC5B,OAAO,CAAC,gBAAgB,GACxB,YAAY,CAAC,gBAAgB,GAC7B,QAAQ,CAAC,gBAAgB,GACzB,mBAAmB,CAAC,OAAO,EAC9B"}

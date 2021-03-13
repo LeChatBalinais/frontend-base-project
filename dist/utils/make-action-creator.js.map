@@ -1,1 +1,0 @@
-{"version":3,"file":"make-action-creator.js","sourceRoot":"","sources":["../../src/utils/make-action-creator.ts"],"names":[],"mappings":";;;AAQA,SAAgB,iBAAiB,CAC/B,IAAO;IAEP,OAAO,CAAC,OAAW,EAAwB,EAAE;QAC3C,OAAO,EAAE,IAAI,EAAE,OAAO,EAAE,CAAC;IAC3B,CAAC,CAAC;AACJ,CAAC;AAND,8CAMC"}

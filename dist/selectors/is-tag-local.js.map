@@ -1,1 +1,0 @@
-{"version":3,"file":"is-tag-local.js","sourceRoot":"","sources":["../../src/selectors/is-tag-local.ts"],"names":[],"mappings":";;;AAAA,yCAAwC;AAGjC,MAAM,UAAU,GAAG,CAAC,KAAY,EAAE,EAAU,EAAW,EAAE;IAC9D,MAAM,GAAG,GAAG,aAAM,CAAC,KAAK,EAAE,EAAE,CAAC,CAAC;IAC9B,IAAI,CAAC,GAAG;QAAE,OAAO,KAAK,CAAC;IACvB,OAAO,GAAG,CAAC,QAAQ,KAAK,SAAS,CAAC;AACpC,CAAC,CAAC;AAJW,QAAA,UAAU,cAIrB"}
