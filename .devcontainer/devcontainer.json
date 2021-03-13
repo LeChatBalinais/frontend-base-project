@@ -1,0 +1,12 @@
+{
+  "name": "Frontend-Base-Project",
+  "dockerFile": "Dockerfile",
+  "appPort": 8080,
+  "extensions": [
+    "dbaeumer.vscode-eslint",
+    "2gua.rainbow-brackets",
+    "prettier.prettier",
+    "esbenp.prettier-vscode"
+  ],
+  "postCreateCommand": "npm install"
+}

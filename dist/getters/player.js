@@ -1,0 +1,38 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.getVideoDuration = exports.getHighlightedTagID = exports.isTagHighlighted = exports.isDelayOn = exports.getSeekVideo = exports.getStageSeekPreviewSeekingTo = exports.getSeekPreviewStatus = exports.getStageSeekPreviewAt = exports.getStageVideoSeekingTo = exports.getVideoStatus = exports.getStageVideoAt = exports.getLastRequestedStage = exports.getPlaybackStatus = exports.getSeekbarStatus = exports.getSeekingStatus = exports.isPlaying = void 0;
+const state_1 = require("~/state");
+const isPlaying = ({ player: { playbackStatus, seekingStatus } }) => playbackStatus === state_1.PlaybackStatus.Playing &&
+    seekingStatus === state_1.SeekingStatus.NoSeeking;
+exports.isPlaying = isPlaying;
+const getSeekingStatus = ({ player: { seekingStatus } }) => seekingStatus;
+exports.getSeekingStatus = getSeekingStatus;
+const getSeekbarStatus = ({ player: { seekbar: { status } } }) => status;
+exports.getSeekbarStatus = getSeekbarStatus;
+const getPlaybackStatus = ({ player: { playbackStatus } }) => playbackStatus;
+exports.getPlaybackStatus = getPlaybackStatus;
+const getLastRequestedStage = ({ player: { lastRequestedStage } }) => lastRequestedStage;
+exports.getLastRequestedStage = getLastRequestedStage;
+const getStageVideoAt = ({ player: { video: { stageAt } } }) => stageAt;
+exports.getStageVideoAt = getStageVideoAt;
+const getVideoStatus = ({ player: { video: { status } } }) => status;
+exports.getVideoStatus = getVideoStatus;
+const getStageVideoSeekingTo = ({ player: { video: { stageSeekingTo } } }) => stageSeekingTo;
+exports.getStageVideoSeekingTo = getStageVideoSeekingTo;
+const getStageSeekPreviewAt = ({ player: { seekPreview: { stageAt } } }) => stageAt;
+exports.getStageSeekPreviewAt = getStageSeekPreviewAt;
+const getSeekPreviewStatus = ({ player: { seekPreview: { status } } }) => status;
+exports.getSeekPreviewStatus = getSeekPreviewStatus;
+const getStageSeekPreviewSeekingTo = ({ player: { seekPreview: { stageSeekingTo } } }) => stageSeekingTo;
+exports.getStageSeekPreviewSeekingTo = getStageSeekPreviewSeekingTo;
+const getSeekVideo = ({ player: { seekVideo } }) => seekVideo;
+exports.getSeekVideo = getSeekVideo;
+const isDelayOn = ({ player: { delayOn } }) => delayOn;
+exports.isDelayOn = isDelayOn;
+const isTagHighlighted = ({ tagEditor: { highlightedTagID } }, ID) => ID !== undefined && ID === highlightedTagID;
+exports.isTagHighlighted = isTagHighlighted;
+const getHighlightedTagID = ({ tagEditor: { highlightedTagID } }) => highlightedTagID;
+exports.getHighlightedTagID = getHighlightedTagID;
+const getVideoDuration = ({ player: { duration } }) => duration;
+exports.getVideoDuration = getVideoDuration;
+//# sourceMappingURL=player.js.map
